@@ -1,0 +1,96 @@
+
+.first{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nvi{
+    padding: 2% 12%;
+}
+.logo{
+    width:16%;
+    height: 16%;
+    filter: brightness(300%);
+}
+#language{
+    background-color: #2B2A2A;
+    border-radius: 7%;
+    height: 1.9rem;
+    width: 8rem;
+    color: white;
+}
+button{
+    background-color: red;
+    border-radius: 7%;
+    width: 5rem;
+    height: 1.75rem;
+    border: 0;
+    color: white;
+}
+button:hover{
+    background-color: #DF4322;
+}
+option:hover{
+    background-color: white;
+    color: black;
+}
+.content{
+    text-align: center;
+    padding-top: 16%;
+    padding-bottom:10%;
+}
+#detail{
+    width: 22rem;
+    height: 3rem;
+    padding-left: 3%;
+    border-radius: 4%;
+    background-color: black;
+    color: white;
+    border-color: #949292;
+}
+.started{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 4%;
+}
+.sbar{
+    padding: 0 28.5%;
+}
+.gap{
+    height:15px;
+    background-color: #353434;
+}
+.second{
+    background-color: black;
+    padding: 5% 0%;
+}
+.enjoy{
+    padding: 15% 10%;
+}
+.image{
+    width: 40vw; height: 60vh;
+}
+.is{
+    padding-left: 10%;
+}
+.last{
+    background-color: black;
+    padding: 6% 13%;
+}
+@media screen and (max-width: 991px) {
+    .second{
+        text-align: center;
+    }
+    .enjoy{
+        padding:5% 4%;
+    }
+    .image{
+        padding-top: 4%;
+        padding-bottom: 3%;
+        width: 45vw;
+        height: 45vh;
+    }
+    .is{
+        padding-left: 0%;
+    }
+}
